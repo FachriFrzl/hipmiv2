@@ -127,7 +127,7 @@ img.mobile-menu-logo {
   padding-top: 102px;
 }
 nav#myNavbar {
-background-color: rgba(12, 6, 112, 0.895);;
+background-color: rgba(8, 8, 8, 0.315);
 }
 nav.sticky#myNavbar {
   background-color: var(--main-blue);
@@ -146,7 +146,7 @@ img.logo{
   padding-top: 5px;
 }
 .topnav a {
-  color: #f2f2f2;
+  color: #f2f2f2e3;
   text-align: center;
   padding: 5px 16px;
   text-decoration: none;
@@ -169,7 +169,7 @@ img.logo{
   display: block;
 }
 .dropdown-menu{
-  background-color: var(--main-blue);
+  background-color: rgba(137, 173, 7, 0.979);
   border-radius: 0 0 10px 10px;
   border: none;
 }
@@ -185,7 +185,7 @@ img.logo{
 }
 .dropdown-item:hover{
   background-color: rgba(0, 0, 0, 0.2);
-  color: var(--main-white);
+  color: var(--main-black);
   font-weight: 600;
 }
 a.nav-link {
@@ -755,7 +755,7 @@ body:not(.using-mobile-browser) .oranges-flip-box[data-flip-direction="vertical-
 .background-home-prestasi{
   padding: 50px 0;
   color: var(--main-white);
-  background: linear-gradient(90deg, #4145b8 80%, #fff 20%);
+  background: linear-gradient(90deg, #000475 80%, #fff 20%);
 }
 #slide_sertificate{
   border:2px solid var(--main-yellow);
@@ -765,14 +765,14 @@ body:not(.using-mobile-browser) .oranges-flip-box[data-flip-direction="vertical-
 /* Agenda Home */
 .home-agenda{
   padding: 50px 0;
-  color: var(--main-white);
-  background: linear-gradient(-90deg, #4145b8 80%, #fff 20%);
+  color: rgb(0, 0, 0);
+  background: linear-gradient(-90deg, #ffffff 80%, #ffffff);
 }
 .agendas-time{
   font-size: 14px;
 }
 .home-col-text{
-  background-color: #1B5E20;
+  background-color: hsl(0, 0%, 100%);
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -808,7 +808,7 @@ body:not(.using-mobile-browser) .oranges-flip-box[data-flip-direction="vertical-
   padding: 50px 0;
   min-height: 50vh;
   color: var(--main-white);
-  background: linear-gradient(90deg, #272727 100%, #fff 20%);
+  background: linear-gradient(90deg, #077cca 100%, #fff 20%);
 }
 .home-kerjasama{
   background-color: var(--main-grey);
@@ -838,10 +838,10 @@ body:not(.using-mobile-browser) .oranges-flip-box[data-flip-direction="vertical-
 }
 .home-news{
   padding: 50px 0;
-  background: linear-gradient(180deg, #003366 50%, #fff 50%);
+  background: linear-gradient(180deg, #ffffff 50%, rgb(255, 255, 255) 50%);
 }
 .home-news-title{
-  color: var(--main-white);
+  color: var(--main-blue);
   font-weight: 600;
 }
 .img-news{

@@ -34,9 +34,6 @@ TAMBAH</a>
                     <thead class="justify-between">
                         <tr class="bg-gray-900 w-full">
                             <th class="px-16 py-2 text-center">
-                                <span class="text-white">ID</span>
-                            </th>
-                            <th class="px-16 py-2 text-center">
                                 <span class="text-white">MOTO</span>
                             </th>
                             <th class="px-16 py-2 text-center">
@@ -50,9 +47,6 @@ TAMBAH</a>
                     @foreach ($motto as $item)
                     <tbody class="bg-gray-200">
                             <tr class="border bg-white">
-                                <td class="px-16 py-2">
-                                    {{$item -> id}}
-                                    </td>
                                 <td class="px-16 py-2 flex justify-center">
                                 {{$item -> motto}}
                                 </td>

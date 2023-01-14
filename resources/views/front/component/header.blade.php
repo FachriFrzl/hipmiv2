@@ -17,8 +17,8 @@
       </div>
     </div>
   </nav> --}}
-
-  <nav class="nav navbar navbar-expand-lg navbar-dark " id="myNavbar">
+<header>
+    <nav class="nav navbar navbar-expand-lg navbar-dark " id="myNavbar">
     <div class="container">
       <a class="navbar-brand" href="{{route('home')}}">
         <img src="{{asset('assets/img/logo-hipmi-cimahi.png')}}" alt="Al Lathif Islamic School" class="logo">

@@ -1,7 +1,5 @@
-@extends('layouts.frontapp', ['title' => 'Home'])
-
 @section('content')
-
+@extends('layouts.frontapp', ['title' => 'Home'])
 @include('front.component.slider')
 
 <section class="home-visi text-center">

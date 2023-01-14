@@ -41,22 +41,19 @@ class MottoController extends Controller
     }
     public function edit(Motto $motto)
     {
-        $motto = Motto::latest()->get();
         return view('admin.motto.edit', compact('motto'));
     }
-    public function update(Request $request, Motto $motto)
-    {
-        $this->validate($request, [
-            'motto'             => 'required',
-            'kota'              => 'required'
-        ]); 
-            //update data 
-            $motto = Motto::findOrFail($motto->id);
-            $motto->update([
-                'motto'             => $request->motto,
-                'kota'              => $request->kota,
-            ]);
-         
+   public function update(Request $request, Motto $motto)
+   {
+        $this -> validate([
+            'motto' => $request->motto,
+             'kota' => $request->kota,
+        ]);
+        $motto = Motto::findOrFail($motto->id);
+        $motto->update([
+            'motto' => $request->motto,
+            'kota'  => $request->kota,
+        ]);
         if($motto){
             //redirect dengan pesan sukses
             return redirect()->route('admin.motto.index')->with(['success' => 'Data Berhasil Diupdate!']);
